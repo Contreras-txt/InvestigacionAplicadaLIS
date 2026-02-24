@@ -1,0 +1,4 @@
+# Bloquear acceso directo a carpetas internas
+RewriteEngine On
+RewriteRule ^app/ - [F,L]
+RewriteRule ^config/ - [F,L]
